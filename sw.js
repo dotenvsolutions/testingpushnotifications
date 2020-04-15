@@ -1,7 +1,7 @@
 self.addEventListener('push', e => {
 	var options = {
 		body: 'Descrubre lo nuevo en genesis',
-		image: 'images/compras.png',
+		image: 'images/youtube.png',
 		icon: 'images/64.png',
 		vibrate: [100,50,100],
 		data: {
