@@ -9,7 +9,7 @@ self.addEventListener('push', e => {
 		},
 		actions: [
 			{action: 'explore', title: 'Explora este nuevo Mundo', icon:'images/checkmark.png'},
-			{action: 'close': title: 'Cerrar', icon: 'images/xmark.png'}
+			{action: 'close', title: 'Cerrar', icon: 'images/xmark.png'}
 		]
 	};
 	e.waitUntil(
