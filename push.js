@@ -5,7 +5,7 @@ let vapidKeys = {
   privateKey: 'l4X7WHvMOL2hFEvN-yzfshF191fk25pRflHS2r2Vldk'
 }
  
-push.setVapiDetails('mailto:perdoalex0121@gmail.com',vapidKeys.publicKey,vapidKeys.privateKey)
+push.setVapidDetails('mailto:perdoalex0121@gmail.com',vapidKeys.publicKey,vapidKeys.privateKey)
 
 let subs = {
 
