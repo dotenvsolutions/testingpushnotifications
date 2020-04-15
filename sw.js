@@ -1,6 +1,6 @@
 self.addEventListener('push', e => {
 	var options = {
-		body: 'Esta notificacion fue generada desde push',
+		body: 'Descrubre lo nuevo en genesis',
 		image: 'images/compras.png',
 		icon: 'images/64.png',
 		vibrate: [100,50,100],
