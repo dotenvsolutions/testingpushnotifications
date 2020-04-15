@@ -13,7 +13,6 @@ self.addEventListener('push', e => {
 		]
 	};
 	e.waitUntil(
-		self.registration.sendNotification('Cursos nuevos', options)
+		self.registration.showNotification('Cursos nuevos', options)
 		);
-	
-})
+});
